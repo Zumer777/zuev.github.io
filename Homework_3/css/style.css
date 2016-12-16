@@ -1,0 +1,176 @@
+body
+{
+	background-color: #f9f9f9;
+}
+.wrapper
+{
+	width: 1060px;
+	height: 950px;
+	display: block;
+	margin: 0 auto;
+	background-color: white;
+}
+.header
+{
+	width: 147px;
+	height: 41px;
+	position: relative;
+	padding-left: 47px;
+	padding-top: 50px;
+}
+.menu
+{
+	width: 966px;
+	height: 40px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 30px;
+	background: url(../img/button_1.png);
+	font: Arial;
+
+}
+a
+{
+	font: Arial;
+	text-decoration: none;
+}
+.t1
+{
+	font: 14.67px Arial;
+	color: white;
+}
+
+.hmenu1, .hmenu2, .hmenu3, .hmenu4
+{
+	float: left;
+	width: 100px;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+.hmenu1:hover, .hmenu2:hover, .hmenu3:hover, .hmenu4:hover
+{
+	background-color: #414141;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+}
+.hmenu1
+{
+	padding-left: 25px;
+	width: 145px;
+}
+
+.hmenu2
+{
+	width: 100px;
+}
+.hmenu3
+{
+	width: 145px;
+}
+.cmenu1, .cmenu2, .cmenu3, .cmenu4, .cmenu5, .cmenu6
+{
+	width: 240px;
+	height: 39px;
+	display: block;
+	line-height: 39px;
+	text-align: center;
+	border: 1px solid grey;
+}
+
+.cmenu1, .cmenu2, .cmenu3, .cmenu4, .cmenu5
+{
+	border-bottom: 0;
+}
+.content
+{
+	position: absolute;
+	padding-left: 47px;
+	width: 240px;
+	top: 210px;
+	font: 13.33px Arial;
+}
+.t2
+{
+	float: left;
+	color: rgb(101, 99, 99);
+	padding-left: 25px;
+
+}
+.t2:hover
+{
+	padding-left: 35px;
+	color: #2C2C2C;
+	background-color: #F9F9F9;
+}
+.cmenu1:hover, .cmenu2:hover, .cmenu3:hover, .cmenu4:hover, .cmenu5:hover, .cmenu6:hover
+{
+	background-color: #F9F9F9;
+}
+.conteiner
+{
+	position: relative;
+	width: 677px;
+	left: 335px;
+	top: 78px;
+}
+.lorem
+{
+	display: block;
+	position: absolute;
+	top: 440px;
+	padding: 0px 20px;
+	font: 13.5px Arial;
+	line-height: 1.6;
+}
+.footer
+{
+	height: 40px;
+	width: 966px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	top: 327px;
+	background-color: #E1E1E1;
+	font: 13.5px Arial;
+
+}
+.fmenu1, .fmenu2, .fmenu3, .fmenu4, .fmenu5
+{
+	float: left;
+	height: 40px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	width: 100px;
+
+}
+.fmenu1
+{
+	padding-left: 10px;
+    width: 140px;
+}
+.fmenu2
+{
+    width: 110px;
+}
+.fmenu3
+{
+    width: 140px;
+}
+.fmenu5
+{
+	width: 190px;
+	padding-left: 250px;
+}
+.t3
+{
+	color: #2C2C2C;
+
+}
+.t3:hover
+{
+	border-bottom: 1px solid #2C2C2C;
+}
