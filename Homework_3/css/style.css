@@ -27,17 +27,17 @@ body
 	position: relative;
 	top: 30px;
 	background: url(../img/button_1.png);
-	font: Arial;
+	font: "OpenSans";
 
 }
 a
 {
-	font: Arial;
+	font: "OpenSans";
 	text-decoration: none;
 }
 .t1
 {
-	font: 14.67px Arial;
+	font: 14.67px "OpenSans";
 	color: white;
 }
 
@@ -86,11 +86,11 @@ a
 }
 .content
 {
-	position: absolute;
+	position: relative;
 	padding-left: 47px;
 	width: 240px;
-	top: 210px;
-	font: 13.33px Arial;
+	top: 80px;
+	font: 13.33px "OpenSans";
 }
 .t2
 {
@@ -114,15 +114,15 @@ a
 	position: relative;
 	width: 677px;
 	left: 335px;
-	top: 78px;
+	top:-162px;
 }
 .lorem
 {
 	display: block;
-	position: absolute;
-	top: 440px;
+	position: relative;
+	top: 40px;
 	padding: 0px 20px;
-	font: 13.5px Arial;
+	font: 13.5px "OpenSans";
 	line-height: 1.6;
 }
 .footer
@@ -132,9 +132,9 @@ a
 	display: block;
 	margin: 0 auto;
 	position: relative;
-	top: 327px;
+	top: -50px;
 	background-color: #E1E1E1;
-	font: 13.5px Arial;
+	font: 13.5px "OpenSans";
 
 }
 .fmenu1, .fmenu2, .fmenu3, .fmenu4, .fmenu5
