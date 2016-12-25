@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: url("../img/background.jpg"), #0c739f;
+    background-repeat: repeat-x, no-repeat;
+}
+
+.cloth {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.clearFix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+/* HEADER */
+
+.header {
+    padding-top: 11px;
+    background: #fff;
+    position: relative;
+    box-shadow: 0 3px 3px 0 #3b3c3c;
+    z-index: 2;
+}
+
+.logo a {
+    width: 283px;
+    height: 164px;
+    display: block;
+    margin-left: 28px;
+    float: left;
+}
+
+.contacts {
+    margin-right: 33px;
+    float: right;
+    color: #5fa5bb;
+    font-size: 12px;
+    font-family: Tahoma;
+}
+
+.countries {
+    clear: right;
+    margin-right: 30px;
+}
+
+.countries ul li {
+    width: 51px;
+    height: 42px;
+    padding-top: 35px;
+    float: right;
+    list-style: none;
+}
+
+.countries ul li a {
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 9px;
+    font-family: Tahoma;
+}
+
+.banner {
+    height: 235px;
+    clear: both;
+    border-top: 1px solid #128aa7;
+    border-bottom: 1px solid #128aa7;
+}
+
+/* MENU */
+
+.topMenu {
+    background: linear-gradient(to top, #303030, #373737);
+    border-top: 1px solid #cacbcb;
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+
+.menu {
+    display: block;
+    list-style: none;
+}
+
+.menu > li {
+    float: left;
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+    width: 142px;
+    height: 24px;
+    padding-top: 4px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li a span {
+    font-size: 8px;
+}
+
+.subMenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 142px;
+    background: #303030;
+    box-shadow: 0 5px 10px 2px #3b3c3c;
+    z-index: 5;
+}
+
+.subMenu > li {
+    display: block;
+}
+
+.subMenu > li > a {
+    display: block;
+    height: 22px;
+    padding-top: 3px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+
+.menu > li:hover > .subMenu {
+    display: block;
+}
+
+/* CONTENT */
+
+.content {
+    overflow: hidden;
+    box-shadow: 0 3px 3px 0 #3b3c3c;
+}
+
+.left-background {
+    width: 1000px;
+    background: #edeef0;
+    border-right: 1px solid #c7cacf;
+    float: left;
+    position: relative;
+    right: 580px;
+}
+.center-background {
+    width: 999px;
+    background: #fff;
+    border-right: 1px solid #c7cacf;
+    float: left;
+    position: relative;
+    right: 210px;
+}
+.right-background {
+    width: 999px;
+    background: #edeef0;
+    border-left: 1px solid #c7cacf;
+    border-right: 1px solid #c7cacf;
+    float: left;
+}
+.leftColumn {
+    width: 190px;
+    float: left;
+    overflow: hidden;
+    position:relative;
+    left:790px;
+}
+.centerColumn {
+    width: 560px;
+    float: left;
+    overflow: hidden;
+    position:relative;
+    left:790px;
+}
+.rightColumn {
+    width: 190px;
+    float: left;
+    overflow: hidden;
+    position:relative;
+    left:790px;
+}
+
+h3 {
+    margin: 5px;
+    font-size: 18px;
+}
+
+.text-style {
+    padding: 0 10px 10px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Tahoma;
+}
+
+/* FOOTER */
+
+.footer {
+    height: 23px;
+    padding-top: 8px;
+    clear: both;
+}
+
+.footer p {
+    color: #dee7ee;
+    text-align: center;
+    font-size: 12px;
+    font-family: Tahoma;
+}
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status 
